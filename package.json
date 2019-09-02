@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-serialport-connect",
+  "version": "1.0.0",
+  "description": "Connect serial port using nodejs",
+  "main": "communicate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js communicate.js"
+  },
+  "repository": "git+https://github.com/nuSapb/nodejs-serialport-connect.git",
+  "author": "Anu S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuSapb/nodejs-serialport-connect/issues"
+  },
+  "homepage": "https://github.com/nuSapb/nodejs-serialport-connect#readme",
+  "dependencies": {
+    "serialport": "^7.1.5"
+  }
+}
